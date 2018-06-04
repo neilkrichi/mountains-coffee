@@ -1,0 +1,162 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin: 0px !important;
+}
+
+h1, h2, h3, h4 {
+  margin: 8px 0px;
+}
+
+h2 {
+  color: #313131;
+}
+
+p, h4 {
+  color: #909090;
+}
+
+#main {
+  padding: 50px 70px;
+  height: 700px;
+  background: url("./assets/bg2.jpg") no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+#main .container {
+  padding: 150px 0px;
+}
+
+#main h1 {
+  font-size: 2.5em;
+  padding-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+nav {
+  height: 100px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 50px;
+}
+
+.logo {
+  width: 80px;
+  float: left;
+  margin-top: -5px;
+}
+
+.icon {
+  width: 80px;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.container button {
+  border: 1.5px solid #fff;
+  color: #fff;
+}
+
+.container button:hover {
+  background-color: #fff;
+  color: #372521;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+nav a:after {
+  content: '';
+  width: 0px;
+  height: 1.5px;
+  display: block;
+  background: #fff;
+  transition: 300ms;
+}
+
+nav a:hover:after {
+  width: 100%;
+}
+
+#about {
+  padding: 100px 0px;
+  background-color: #fff;
+}
+
+#about .container {
+  width: 70%;
+  margin: 0px auto;
+}
+
+#subscribe {
+  padding: 60px 0px;
+  background-color: #f7f7f7;
+}
+
+#subscribe p {
+  margin: 0px;
+}
+
+#subscribe form {
+  padding: 30px 0px;
+}
+
+#subscribe form .input-block {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+#contact {
+  padding: 80px 0px;
+}
+
+#contact h4 {
+  margin: 5px;
+}
+
+#contact .contact-details {
+  padding: 10px 0px;
+}
+
+#contact .socials {
+  padding: 10px 0px;
+}
+
+#contact .fab {
+  padding: 0px 10px;
+  color: #1B1A1A;
+}
+
+footer {
+  padding: 30px 0px;
+  background-color: #1B1A1A;
+  color: white;
+}
+
+@media only screen and (max-width: 789px) {
+  .app-logo {
+    width: 150px;
+    padding: 150px 0px 20px 0px;
+  }
+}
